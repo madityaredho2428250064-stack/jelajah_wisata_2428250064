@@ -29,7 +29,39 @@ class MainScreen extends StatelessWidget{
                 child: Row(
                   children: [
                     ClipRRect(
-                      borderRadius: BorderRadiusgit),
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.network(
+                        'https://pixabay.com/id/images/search/gunung/',
+                        witdh:130,
+                        height:145,
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                    const SizedBox(witdh:15),
+                    const Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment,
+                        children: [
+                          Text(
+                            'Stone Garden',
+                            style: TextStyle(
+                              color: Color.brown,
+                              fontSize:11,
+                              fontWeight: FontWeight.bold,
+                              letterSpacing: 1,
+
+                            ),
+                          ),
+                        Size
+
+                            )
+                          )
+
+                        ],
+                      )
+                    )
+
+                      )
                     )
                   ],
                 )
